@@ -1,6 +1,6 @@
 ﻿-- =============================================
 -- Author:		ALEJANDRO GEO MUÑOZ VINDAS
--- Create date: LALALAALAALA
+-- Create date: kjskjadskj
 -- Description:	<Description,,>
 -- =============================================
 CREATE PROCEDURE AgregarVehiculo
