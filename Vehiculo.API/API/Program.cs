@@ -20,13 +20,18 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient();
 
 builder.Services.AddScoped<IVehiculoFlujo, VehiculoFlujo>();
+builder.Services.AddScoped<IMarcaFlujo, MarcaFlujo>();
+builder.Services.AddScoped<IModeloFlujo, ModeloFlujo>();
 builder.Services.AddScoped<IVehiculoDA, VehiculoDA>();
+builder.Services.AddScoped<IMarcaDA, MarcaDA>();
+builder.Services.AddScoped<IModeloDA, ModeloDA>();
 builder.Services.AddScoped<IRepositorioDapper, RepositorioDapper>();
 builder.Services.AddScoped<IRegistroServicio, RegistroServicio>();
 builder.Services.AddScoped<IRevisionServicio, RevisionServicio>();
-builder.Services.AddScoped<IConfiguracion, Configuracion>();
-builder.Services.AddScoped<IRevisionReglas, RevisionReglas>();
 builder.Services.AddScoped<IRegistroReglas, RegistroReglas>();
+builder.Services.AddScoped<IRevisionReglas, RevisionReglas>();
+builder.Services.AddScoped<IConfiguracion, Configuracion>();
+
 
 
 
